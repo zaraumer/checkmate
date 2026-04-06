@@ -1,36 +1,24 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# ♛ Checkmate
+**Make your next move with confidence.**
 
-## Getting Started
+Checkmate is a strategic reproductive health preparation tool designed to turn medical anxiety into a tactical plan. By demystifying procedures like Pap smears, pelvic exams, and mammograms, we empower users to move from fear to readiness.
 
-First, run the development server:
+## ✨ Features
+- **Opening Moves (Procedure Guides):** Plain-language breakdowns of what to expect, what it feels like, and why it matters.
+- **The Toolkit:** Calm explainers for medical tools (like the speculum) to remove the "fear of the unknown."
+- **Concerns Hub:** Tailored guidance for common worries like pain, embarrassment, or first-time anxiety.
+- **Tactical Log (Flow Tracker):** A symptom and intensity tracker to help users walk into appointments with data-driven confidence.
+- **Strategic Accessibility:** Built-in toggles for Simple Language, Large Text, and High Contrast modes.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🛠️ Built With
+- **Framework:** Next.js 14
+- **Language:** TypeScript
+- **Styling:** Tailwind CSS
+- **Animations:** Framer Motion
+- **Icons:** Lucide React
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## ⚠️ Medical Disclaimer
+Checkmate is an educational and support tool. It does not provide medical diagnoses or replace professional healthcare advice. Always consult with a healthcare professional regarding symptoms or care plans.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+*Created for the ECEHacks 2026 Hackathon.*
