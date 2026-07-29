@@ -1,24 +1,78 @@
-# ♛ Checkmate
+# Checkmate
+
 **Make your next move with confidence.**
 
-Checkmate is a strategic reproductive health preparation tool designed to turn medical anxiety into a tactical plan. By demystifying procedures like Pap smears, pelvic exams, and mammograms, we empower users to move from fear to readiness.
+Checkmate is a web application that helps users prepare for reproductive health appointments by explaining common procedures, addressing common concerns, and providing tools to track symptoms before a visit.
 
-## ✨ Features
-- **Opening Moves (Procedure Guides):** Plain-language breakdowns of what to expect, what it feels like, and why it matters.
-- **The Toolkit:** Calm explainers for medical tools (like the speculum) to remove the "fear of the unknown."
-- **Concerns Hub:** Tailored guidance for common worries like pain, embarrassment, or first-time anxiety.
-- **Tactical Log (Flow Tracker):** A symptom and intensity tracker to help users walk into appointments with data-driven confidence.
-- **Strategic Accessibility:** Built-in toggles for Simple Language, Large Text, and High Contrast modes.
+Built for **ECEHacks 2026**, where it placed **2nd overall**.
 
-## 🛠️ Built With
-- **Framework:** Next.js 14
-- **Language:** TypeScript
-- **Styling:** Tailwind CSS
-- **Animations:** Framer Motion
-- **Icons:** Lucide React
+## Tech Stack
 
-## ⚠️ Medical Disclaimer
-Checkmate is an educational and support tool. It does not provide medical diagnoses or replace professional healthcare advice. Always consult with a healthcare professional regarding symptoms or care plans.
+- Next.js 14
+- TypeScript
+- Tailwind CSS
+- Framer Motion
+- Lucide React
 
----
-*Created for the ECEHacks 2026 Hackathon.*
+## Features
+
+### Procedure Guides
+
+Step-by-step explanations of common procedures including Pap smears, pelvic exams, and mammograms. Each guide covers what the procedure is, why it's performed, and what to expect during the appointment.
+
+### Medical Tool Explanations
+
+Descriptions of equipment commonly used during reproductive health appointments to help users become familiar with the process before their visit.
+
+### Common Concerns
+
+Information addressing questions about discomfort, first-time appointments, privacy, and other concerns frequently reported by patients.
+
+### Symptom Tracker
+
+A simple tracker for recording symptoms, intensity, and notes before an appointment, making it easier to communicate with healthcare providers.
+
+### Accessibility
+
+The interface includes:
+
+- High Contrast Mode
+- Large Text
+- Simple Language
+
+## Running the Project
+
+Install the dependencies.
+
+```bash
+npm install
+```
+
+Start the development server.
+
+```bash
+npm run dev
+```
+
+Open:
+
+```
+http://localhost:3000
+```
+
+## Project Structure
+
+```
+app/              Application routes
+components/       Reusable UI components
+public/           Static assets
+styles/           Global styling
+```
+
+## Notes
+
+Checkmate is intended to improve access to clear, easy-to-understand educational information before reproductive health appointments. It is not a diagnostic or treatment tool.
+
+## Disclaimer
+
+This project is for educational purposes only and should not be used as a substitute for professional medical advice, diagnosis, or treatment. Always consult a qualified healthcare provider regarding medical concerns.
