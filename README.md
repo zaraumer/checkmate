@@ -1,4 +1,4 @@
-# Checkmate
+# Checkmate ♛
 
 **Make your next move with confidence.**
 
