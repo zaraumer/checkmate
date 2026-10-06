@@ -1,7 +1,7 @@
 "use client";
 
 import { useMemo, useState } from "react";
-import { AnimatePresence, motion } from "framer-motion";
+import { AnimatePresence, motion, MotionConfig } from "framer-motion";
 import type { ReactNode } from "react";
 import {
   ArrowLeft,
@@ -185,9 +185,12 @@ export default function Page() {
     setDate(""); setSymptoms([]);
   };
 
-  return (
-    <div className={cn("min-h-screen transition-all duration-500", highContrast ? "high-contrast-mode" : "bg-[#fffafa]", largeText ? "text-xl" : "text-base")}>
-      
+    return (
+      <MotionConfig reducedMotion={reducedMotion ? "always" : "user"}
+      transition={reducedMotion ? { duration: 0 } : undefined}
+      >
+        <div className={cn("min-h-screen", reducedMotion && "reduce-motion", !reducedMotion && "transition-all duration-500", highContrast ? "high-contrast-mode" : "bg-[#fffafa]", largeText ? "text-xl" : "text-base")}>
+
       {/* Subtle Chess Decoration */}
       {!highContrast && (
         <>
@@ -389,5 +392,6 @@ export default function Page() {
         </div>
       </main>
     </div>
+    </MotionConfig>
   );
 }
